@@ -1,0 +1,20 @@
+PODS:
+  - FMDB (2.6.2):
+    - FMDB/standard (= 2.6.2)
+  - FMDB/standard (2.6.2)
+  - HyphenateFullSDK (3.1.5)
+  - MBProgressHUD (1.0.0)
+
+DEPENDENCIES:
+  - FMDB
+  - HyphenateFullSDK
+  - MBProgressHUD
+
+SPEC CHECKSUMS:
+  FMDB: 854a0341b4726e53276f2a8996f06f1b80f9259a
+  HyphenateFullSDK: 536f76eeb0914dba766b1d5d30dee083f0805da2
+  MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
+
+PODFILE CHECKSUM: 323bb73459884143334f4fc5f31c33228fedcbb8
+
+COCOAPODS: 1.0.1

@@ -1,0 +1,5 @@
+target 'EaseDemo' do
+pod 'FMDB'
+pod 'MBProgressHUD'
+pod 'HyphenateFullSDK'
+end

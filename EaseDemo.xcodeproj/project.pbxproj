@@ -13,9 +13,21 @@
 		6F06EE861EC2DBF000978DD8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F06EE841EC2DBF000978DD8 /* Main.storyboard */; };
 		6F06EE881EC2DBF000978DD8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F06EE871EC2DBF000978DD8 /* Assets.xcassets */; };
 		6F06EE8B1EC2DBF000978DD8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F06EE891EC2DBF000978DD8 /* LaunchScreen.storyboard */; };
+		6F06EEA31EC2F08300978DD8 /* CHTBaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F06EE9E1EC2F08300978DD8 /* CHTBaseController.m */; };
+		6F06EEA41EC2F08300978DD8 /* CHTNaviController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F06EEA01EC2F08300978DD8 /* CHTNaviController.m */; };
+		6F06EEA51EC2F08300978DD8 /* CHTTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F06EEA21EC2F08300978DD8 /* CHTTabBarController.m */; };
+		6F06EEA91EC3F60000978DD8 /* CHTMainController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F06EEA81EC3F60000978DD8 /* CHTMainController.m */; };
+		6F06EEAC1EC3F63300978DD8 /* CHTContactController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F06EEAB1EC3F63300978DD8 /* CHTContactController.m */; };
+		6F06EEAF1EC3F66600978DD8 /* CHTDynamicController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F06EEAE1EC3F66600978DD8 /* CHTDynamicController.m */; };
+		6F06EEB31EC3FCE200978DD8 /* naviBarBack.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F06EEB21EC3FCE200978DD8 /* naviBarBack.png */; };
+		6F06EEBB1EC3FFEA00978DD8 /* CHTLoginController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F06EEB91EC3FFEA00978DD8 /* CHTLoginController.m */; };
+		6F06EEBC1EC3FFEA00978DD8 /* CHTLoginController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F06EEBA1EC3FFEA00978DD8 /* CHTLoginController.xib */; };
+		C48A7B4C9601E6F54E742D22 /* libPods-EaseDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F98601039B0A4364D292FBE /* libPods-EaseDemo.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		32D7E7795BE57F89C967227C /* Pods-EaseDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EaseDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-EaseDemo/Pods-EaseDemo.release.xcconfig"; sourceTree = "<group>"; };
+		3F98601039B0A4364D292FBE /* libPods-EaseDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EaseDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F06EE781EC2DBF000978DD8 /* EaseDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EaseDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F06EE7C1EC2DBF000978DD8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6F06EE7E1EC2DBF000978DD8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -26,6 +38,24 @@
 		6F06EE871EC2DBF000978DD8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6F06EE8A1EC2DBF000978DD8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6F06EE8C1EC2DBF000978DD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6F06EE921EC2E89100978DD8 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		6F06EE9D1EC2F08300978DD8 /* CHTBaseController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHTBaseController.h; sourceTree = "<group>"; };
+		6F06EE9E1EC2F08300978DD8 /* CHTBaseController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHTBaseController.m; sourceTree = "<group>"; };
+		6F06EE9F1EC2F08300978DD8 /* CHTNaviController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHTNaviController.h; sourceTree = "<group>"; };
+		6F06EEA01EC2F08300978DD8 /* CHTNaviController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHTNaviController.m; sourceTree = "<group>"; };
+		6F06EEA11EC2F08300978DD8 /* CHTTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHTTabBarController.h; sourceTree = "<group>"; };
+		6F06EEA21EC2F08300978DD8 /* CHTTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHTTabBarController.m; sourceTree = "<group>"; };
+		6F06EEA71EC3F60000978DD8 /* CHTMainController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHTMainController.h; sourceTree = "<group>"; };
+		6F06EEA81EC3F60000978DD8 /* CHTMainController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHTMainController.m; sourceTree = "<group>"; };
+		6F06EEAA1EC3F63300978DD8 /* CHTContactController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHTContactController.h; sourceTree = "<group>"; };
+		6F06EEAB1EC3F63300978DD8 /* CHTContactController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHTContactController.m; sourceTree = "<group>"; };
+		6F06EEAD1EC3F66600978DD8 /* CHTDynamicController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHTDynamicController.h; sourceTree = "<group>"; };
+		6F06EEAE1EC3F66600978DD8 /* CHTDynamicController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHTDynamicController.m; sourceTree = "<group>"; };
+		6F06EEB21EC3FCE200978DD8 /* naviBarBack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = naviBarBack.png; sourceTree = "<group>"; };
+		6F06EEB81EC3FFEA00978DD8 /* CHTLoginController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHTLoginController.h; sourceTree = "<group>"; };
+		6F06EEB91EC3FFEA00978DD8 /* CHTLoginController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHTLoginController.m; sourceTree = "<group>"; };
+		6F06EEBA1EC3FFEA00978DD8 /* CHTLoginController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CHTLoginController.xib; sourceTree = "<group>"; };
+		D8D57A51F5A0179FCCF0CBB0 /* Pods-EaseDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EaseDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EaseDemo/Pods-EaseDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +63,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C48A7B4C9601E6F54E742D22 /* libPods-EaseDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3887DC1944F9156E300513E1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D8D57A51F5A0179FCCF0CBB0 /* Pods-EaseDemo.debug.xcconfig */,
+				32D7E7795BE57F89C967227C /* Pods-EaseDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		598E2C9DF33E8B4A4A7EF67D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3F98601039B0A4364D292FBE /* libPods-EaseDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		6F06EE6F1EC2DBF000978DD8 = {
 			isa = PBXGroup;
 			children = (
 				6F06EE7A1EC2DBF000978DD8 /* EaseDemo */,
 				6F06EE791EC2DBF000978DD8 /* Products */,
+				3887DC1944F9156E300513E1 /* Pods */,
+				598E2C9DF33E8B4A4A7EF67D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,11 +108,16 @@
 		6F06EE7A1EC2DBF000978DD8 /* EaseDemo */ = {
 			isa = PBXGroup;
 			children = (
+				6F06EE9C1EC2F08300978DD8 /* BaseController */,
+				6F06EEA61EC3F5C200978DD8 /* controllers */,
+				6F06EEB41EC3FF4800978DD8 /* login */,
 				6F06EE7E1EC2DBF000978DD8 /* AppDelegate.h */,
 				6F06EE7F1EC2DBF000978DD8 /* AppDelegate.m */,
 				6F06EE811EC2DBF000978DD8 /* ViewController.h */,
 				6F06EE821EC2DBF000978DD8 /* ViewController.m */,
+				6F06EE921EC2E89100978DD8 /* PrefixHeader.pch */,
 				6F06EE841EC2DBF000978DD8 /* Main.storyboard */,
+				6F06EEB21EC3FCE200978DD8 /* naviBarBack.png */,
 				6F06EE871EC2DBF000978DD8 /* Assets.xcassets */,
 				6F06EE891EC2DBF000978DD8 /* LaunchScreen.storyboard */,
 				6F06EE8C1EC2DBF000978DD8 /* Info.plist */,
@@ -79,6 +134,42 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		6F06EE9C1EC2F08300978DD8 /* BaseController */ = {
+			isa = PBXGroup;
+			children = (
+				6F06EE9D1EC2F08300978DD8 /* CHTBaseController.h */,
+				6F06EE9E1EC2F08300978DD8 /* CHTBaseController.m */,
+				6F06EE9F1EC2F08300978DD8 /* CHTNaviController.h */,
+				6F06EEA01EC2F08300978DD8 /* CHTNaviController.m */,
+				6F06EEA11EC2F08300978DD8 /* CHTTabBarController.h */,
+				6F06EEA21EC2F08300978DD8 /* CHTTabBarController.m */,
+			);
+			path = BaseController;
+			sourceTree = "<group>";
+		};
+		6F06EEA61EC3F5C200978DD8 /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				6F06EEA71EC3F60000978DD8 /* CHTMainController.h */,
+				6F06EEA81EC3F60000978DD8 /* CHTMainController.m */,
+				6F06EEAA1EC3F63300978DD8 /* CHTContactController.h */,
+				6F06EEAB1EC3F63300978DD8 /* CHTContactController.m */,
+				6F06EEAD1EC3F66600978DD8 /* CHTDynamicController.h */,
+				6F06EEAE1EC3F66600978DD8 /* CHTDynamicController.m */,
+			);
+			path = controllers;
+			sourceTree = "<group>";
+		};
+		6F06EEB41EC3FF4800978DD8 /* login */ = {
+			isa = PBXGroup;
+			children = (
+				6F06EEB81EC3FFEA00978DD8 /* CHTLoginController.h */,
+				6F06EEB91EC3FFEA00978DD8 /* CHTLoginController.m */,
+				6F06EEBA1EC3FFEA00978DD8 /* CHTLoginController.xib */,
+			);
+			path = login;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -86,9 +177,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6F06EE8F1EC2DBF000978DD8 /* Build configuration list for PBXNativeTarget "EaseDemo" */;
 			buildPhases = (
+				F48E8C012FB58F6BBD0DF5FD /* [CP] Check Pods Manifest.lock */,
 				6F06EE741EC2DBF000978DD8 /* Sources */,
 				6F06EE751EC2DBF000978DD8 /* Frameworks */,
 				6F06EE761EC2DBF000978DD8 /* Resources */,
+				838C482EF156B9C79C972B99 /* [CP] Embed Pods Frameworks */,
+				3242437A505E63CCD3DB84B5 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -138,6 +232,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				6F06EE8B1EC2DBF000978DD8 /* LaunchScreen.storyboard in Resources */,
+				6F06EEBC1EC3FFEA00978DD8 /* CHTLoginController.xib in Resources */,
+				6F06EEB31EC3FCE200978DD8 /* naviBarBack.png in Resources */,
 				6F06EE881EC2DBF000978DD8 /* Assets.xcassets in Resources */,
 				6F06EE861EC2DBF000978DD8 /* Main.storyboard in Resources */,
 			);
@@ -145,14 +241,69 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3242437A505E63CCD3DB84B5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EaseDemo/Pods-EaseDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		838C482EF156B9C79C972B99 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EaseDemo/Pods-EaseDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F48E8C012FB58F6BBD0DF5FD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6F06EE741EC2DBF000978DD8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6F06EEAC1EC3F63300978DD8 /* CHTContactController.m in Sources */,
+				6F06EEA31EC2F08300978DD8 /* CHTBaseController.m in Sources */,
 				6F06EE831EC2DBF000978DD8 /* ViewController.m in Sources */,
+				6F06EEAF1EC3F66600978DD8 /* CHTDynamicController.m in Sources */,
+				6F06EEA91EC3F60000978DD8 /* CHTMainController.m in Sources */,
 				6F06EE801EC2DBF000978DD8 /* AppDelegate.m in Sources */,
+				6F06EEA41EC2F08300978DD8 /* CHTNaviController.m in Sources */,
 				6F06EE7D1EC2DBF000978DD8 /* main.m in Sources */,
+				6F06EEA51EC2F08300978DD8 /* CHTTabBarController.m in Sources */,
+				6F06EEBB1EC3FFEA00978DD8 /* CHTLoginController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,8 +419,15 @@
 		};
 		6F06EE901EC2DBF000978DD8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8D57A51F5A0179FCCF0CBB0 /* Pods-EaseDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "${SRCROOT}/EaseDemo/PrefixHeader.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/HyphenateFullSDK\"",
+				);
 				INFOPLIST_FILE = EaseDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = CHT.EaseDemo;
@@ -279,8 +437,15 @@
 		};
 		6F06EE911EC2DBF000978DD8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 32D7E7795BE57F89C967227C /* Pods-EaseDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "${SRCROOT}/EaseDemo/PrefixHeader.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/HyphenateFullSDK\"",
+				);
 				INFOPLIST_FILE = EaseDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = CHT.EaseDemo;
@@ -307,6 +472,7 @@
 				6F06EE911EC2DBF000978DD8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
